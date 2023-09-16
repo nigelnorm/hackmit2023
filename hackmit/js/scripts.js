@@ -22,10 +22,12 @@ function myFunction() {
 var myVar;
 
 function loading() {
+  document.body.style.backgroundImage = "url('css/loading-pic.jpg')";
   myVar = setTimeout(showPage, 3000);
 }
 
 function showPage() {
+  document.body.style.backgroundImage = "url('css/home-screen.jpg')";
   document.getElementById("loader").style.display = "none";
   document.getElementById("myDiv").style.display = "block";
 }
