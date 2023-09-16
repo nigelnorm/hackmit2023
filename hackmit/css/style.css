@@ -1,6 +1,26 @@
 body {
-    text-align: center;
     background-image: url("home-screen.jpg");
+    font-family: 'Fuggles', cursive;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    text-align: center; 
+}
+
+p {
+    padding: 0.5em;
+    font-size: 1.5em;
+}
+
+.white-box {
+    background-color: #B4D8E7;
+    color: black;
+    padding: 2em 0.5em;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -8,11 +28,13 @@ body {
 .topnav {
     background-color: #59BEEB;
     overflow: hidden;
+    font-size: 10rem;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
     font-family: 'Fuggles', cursive;
+   
     float: right;
     display: block;
     color: #f2f2f2;
