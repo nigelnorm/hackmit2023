@@ -9,19 +9,32 @@
 
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
   }
+}
 
+var playing = false;
 
 function music() {
-  var song = document.getElementById("music")
-  song.play(); 
+  var song = document.getElementById("music");
+  var photo = document.getElementById("sound-photo");
+  if (playing === false) {
+    song.play();
+    photo.src = "assets/low-volume.png";
+    playing = true;
+  } else {
+    song.pause();
+    photo.src= "assets/muted.png";
+    playing = false;
+  }
+  
 }
+
+
 
 
 
