@@ -11,6 +11,8 @@ body {
     background-attachment: fixed;
     font-family: 'Fuggles', cursive;
     font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
@@ -48,24 +50,29 @@ img {
 }
 
 
-
 .topnav {
-    background-color: #59BEEB;
+    background-color: #B7CE54;
     overflow: hidden;
-    font-size: 10rem;
+    font-size: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    
+    border-radius: 20px;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    font-family: 'Fuggles', cursive;
-
+    font-family: 'Fuggles';
+    margin:0;
     float: right;
     display: block;
     color: #f2f2f2;
     text-align: center;
+    
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    
 }
 
 /* Change the color of links on hover */
@@ -76,7 +83,7 @@ img {
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-    background-color: #B4D8E7;
+    background-color: #748C39;
     color: white;
 }
 
@@ -125,6 +132,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 40%;
     position: relative;
     background-image: url("loading-pic.jpg");
     height: 25px;
@@ -198,4 +206,9 @@ img {
         bottom: 0;
         opacity: 1
     }
+}
+footer {
+    margin-top: auto;
+    color: white
+    
 }
