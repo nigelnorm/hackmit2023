@@ -1,6 +1,6 @@
 html,
 body {
-    height: 100%;
+    height: 150%;
 }
 
 body {
@@ -228,4 +228,31 @@ footer {
     margin-top: auto;
     color: white
     
+}
+.team_container{
+    display: grid;
+    grid-template-columns:repeat(2, minmax(250px, .1fr));
+    grid-auto-rows: minmax(200px, 70%);
+    grid-gap: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}   
+.profile_card{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+}
+.profile_pic{
+    width: 70%;
+    
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile_pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50%;
 }
