@@ -87,7 +87,8 @@ img {
 }
 /* Style the links inside the navigation bar */
 .topnav a {
-    font-family: 'Fuggles';
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.6em; 
     margin:0;
     float: left;
     display: block;
