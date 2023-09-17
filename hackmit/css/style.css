@@ -16,12 +16,27 @@ body {
 }
 
 h1 {
-    text-align: center; 
+    text-align: center;
 }
 
 p {
     padding: 0.5em;
     font-size: 1.5em;
+}
+
+
+button {
+    border-radius: 5em;
+    background-color: #E1E475;
+    border-color: #E1E475;
+    font-family: 'Quicksand', sans-serif;
+    width: 5em;
+    height: 5em;
+}
+
+img {
+    width: 2em; 
+    height: 2em;
 }
 
 .white-box {
