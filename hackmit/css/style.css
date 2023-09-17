@@ -49,26 +49,40 @@ img {
     margin-right: auto;
 }
 
-
+.fullnav{
+    width: 100%;
+    display: flex;
+}
 .topnav {
     background-color: #B7CE54;
     overflow: hidden;
     font-size: 2rem;
+    margin-top: 10px;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 20px;
+    
+}
+.logo_center{
+    width: 30rem;
     margin-left: auto;
     margin-right: auto;
-    display: inline-block;
-    
-    border-radius: 20px;
 }
-
+#logo{
+    width: 100%;
+    height: 100%;
+}
+.sub_menu{
+    float: right;
+}
 /* Style the links inside the navigation bar */
 .topnav a {
     font-family: 'Fuggles';
     margin:0;
     float: right;
     display: block;
-    color: #f2f2f2;
-    text-align: center;
+    color: #2D7297;
+    text-align: right;
     
     padding: 14px 16px;
     text-decoration: none;
@@ -83,7 +97,7 @@ img {
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-    background-color: #748C39;
+    background-color: #2D7297;
     color: white;
 }
 
@@ -181,7 +195,8 @@ img {
     -webkit-animation-name: animatebottom;
     -webkit-animation-duration: 1s;
     animation-name: animatebottom;
-    animation-duration: 1s
+    animation-duration: 1s;
+    width: 100%;
 }
 
 @-webkit-keyframes animatebottom {
