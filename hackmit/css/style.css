@@ -25,6 +25,11 @@ p {
 }
 
 
+.bio {
+    padding: 0em; 
+    font-size: 0.75em;
+}
+
 button {
     border-radius: 5em;
     background-color: #E1E475;
