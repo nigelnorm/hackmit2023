@@ -50,23 +50,27 @@ img {
 }
 
 .fullnav{
-    width: 100%;
     display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 .topnav {
     background-color: #B7CE54;
     overflow: hidden;
     font-size: 2rem;
     margin-top: 10px;
+    margin-left: 10px;
     display: inline-block;
     overflow: hidden;
     border-radius: 20px;
-    
+}
+#audio_btn{
+    display: inline-block;
+    margin-left: 7%;
+    margin-top: 10px;
 }
 .logo_center{
     width: 30rem;
-    margin-left: auto;
-    margin-right: auto;
 }
 #logo{
     width: 100%;
@@ -83,10 +87,8 @@ img {
     display: block;
     color: #2D7297;
     text-align: right;
-    
     padding: 14px 16px;
     text-decoration: none;
-    
 }
 
 /* Change the color of links on hover */

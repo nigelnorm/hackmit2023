@@ -32,21 +32,26 @@
     </div>
 
     <div style="display:none;" id="myDiv" class="animate-bottom">
-        <div class="topnav" id="myTopnav">
-            <a href="about-us.html">About Us</a>
-            <a href="index1.html" class="active">Home</a>
-        </div>
-        <!-- Page content-->
-        <div class="container">
-            <div class="text-center">
-                <h1>Catmosphere</h1> 
-                <button value="PLAY" onclick="music()"> <img src="assets/volume.png">
-                    <audio id="music" src="assets/Many Worlds (Instrumental).mp3"></audio>
-                </button>
+        <div class="fullnav">
+            
+            <div>
+                <div class="topnav" id="myTopnav">
+                    <a href="about-us.html">About Us</a>
+                    <a href="index1.html" class="active">Home</a>
+                </div>
             </div>
+
             <div class="logo_center">
                 <img id="logo" src="css/logo.png">
             </div>
+            <!-- Page content-->
+            <button id="audio_btn" value="PLAY" onclick="music()"> <img id="sound-photo" src="assets/muted.png">
+                <audio id="music" src="assets/Many Worlds (Instrumental).mp3"></audio>
+            </button>
+            
+        </div>
+        
+            
             
        
     </div>
