@@ -18,6 +18,12 @@ function myFunction() {
   }
 
 
+function music() {
+  var song = document.getElementById("music")
+  song.play(); 
+}
+
+
 
 var myVar;
 
